@@ -6,6 +6,7 @@ public class QuizManager {
     private ArrayList<Question> questions;
     private int score = 0;
 
+    
     public QuizManager() {
         this.questions = new ArrayList<>();
         loadQuestionsFromFile("/home/Documents/Question.txt");  // Load questions from a .txt file
